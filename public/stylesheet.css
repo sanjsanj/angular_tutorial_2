@@ -1,19 +1,25 @@
 body {
-  width: 100%;
   background-color: #D9514E;
 }
 
+#image {
+  position: absolute;
+  max-width: 10%;
+  top: 15px;
+  left: 5%;
+}
+
 #title {
-  font-size: 26px;
+  font-size: 38px;
   text-align: center;
   padding: 35px;
-  background-color: black;
+  background-color: #383737;
   color: #D9514E;
 }
 
-#searchForm {
-  width: 260px;
+.form-horizontal {
   margin: 0 auto;
+  width: 258px;
   padding: 15px;
 }
 
@@ -22,7 +28,9 @@ body {
 }
 
 li {
-  background-color: black;
+  background-color: #383737;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 20px;
   color: white;
   padding: 10px;
   width: 600px;
