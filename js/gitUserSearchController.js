@@ -7,7 +7,6 @@ githubUserSearch.controller('GitUserSearchController', ['$resource', function($r
   var self = this;
 
   self.doSearch = function(){
-    console.log(self.searchTerm);
     self.searchResult = searchResource.get(
       { q: self.searchTerm }
     );

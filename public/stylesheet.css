@@ -1,0 +1,31 @@
+body {
+  width: 100%;
+  background-color: #D9514E;
+}
+
+#title {
+  font-size: 26px;
+  text-align: center;
+  padding: 35px;
+  background-color: black;
+  color: #D9514E;
+}
+
+#searchForm {
+  width: 260px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+#avatar {
+  width: 100px;
+}
+
+li {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  width: 600px;
+  margin: 0 auto;
+  border-radius: 3px;
+}
